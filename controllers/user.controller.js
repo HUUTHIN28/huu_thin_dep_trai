@@ -7,6 +7,12 @@ class userController {
         const filter =req.query.filter;
         console.log("thin", filter)
         const fiii =people.filter(person => person.last_name.includes(filter));
+        const fs = require('fs');
+
+        fs.writeFile('mynewfile3.txt', 'Hello content!', function (err) {
+          if (err) throw err;
+          console.log('Saved!');
+        });
         //return res.json('chao cac ban');
         return res
         .status(200)

@@ -1,0 +1,188 @@
+#p1{
+    width: 80%;
+    height: 150px;
+    margin-left: 130px;
+   background-image: url('https://pho79.vn/wp-content/uploads/2019/08/nh%C3%A0-h%C3%A0ng-79-s%C6%B0%C6%A1ng-nguy%E1%BB%87t-%C3%A1nh.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#p2{
+    width: 80%;
+    height: 600px;
+    border: 1px solid black;
+    margin-left: 130px;
+}
+#p3{
+    width: 250px;
+    height: 600px;
+    
+    border: 1px solid black;
+    background-color:gainsboro;
+    box-shadow: 2px 2px 4px gray;
+}
+#p4{
+    width: 61%;
+    height: 600px;
+    border: 1px solid black;
+   
+    position: absolute;
+    left: 389px;
+    top:157px;
+} 
+#p3{
+    position: absolute;
+    left: 135px;
+}
+#p3 ul li>a{
+    text-decoration:none;
+    color: black;
+    line-height: 40px;
+    padding-left: 40px;
+}
+#p3 ul>li{
+    list-style: none;
+    height: 40px;
+    width: 198px;
+    border: 1px solid black;
+    margin-left: 0px;
+    margin-right: 0px;
+    transition: 3s;
+    margin-bottom: 15px;
+    
+}
+#p3 ul li:hover{
+    background-color: firebrick;
+}
+#p5{
+    width: 400px;
+    margin-left: 180px;
+   
+    height: 300px;
+    margin-top: 50PX;
+    
+}
+#p5 input{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-right: 95px;
+    margin-left: 20px;
+}
+#p6{
+    
+    width: 400px;
+    height: 300px;
+    position: absolute;
+    top:100px;
+    left: 610px;
+    
+}
+.b{
+    width: 120px;
+    height: 31px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    box-shadow: 2px 2px 4px gray ;
+}
+.b:hover{
+    background-color: green;
+}
+table tr td{
+    border: 1px solid black;
+    width: 120px;
+  }  
+  #co{
+    overflow-y:auto;
+    height: 120px;
+    width: 500px;
+  }
+}
+table{
+    border: 1px solid black;
+    text-align: center;
+    overflow-y:scroll;
+    height: 160px;
+}
+table ,tr ,td{
+    border-collapse: collapse;
+}
+table{
+    margin-left: 110px;
+}
+#tr td {
+    height: 140px;
+    border:1px none white ;
+}
+#tr1 td{
+    background-color: gainsboro;
+    height: 25px;
+    border: 1px solid grey;
+}
+#div{
+    width: 300px;
+    height: 250px;
+    border: 1px solid black;
+    margin-left: 300px;
+    margin-top: 120px;
+}
+#div:hover{
+    box-shadow: 2px 2px 4px green;
+}
+#cc{
+    margin-top: 70px;
+    text-align: center;
+}
+#cc input:hover{
+    border: 1px solid green;
+    box-shadow: 1px 1px 2px greenyellow;
+}
+#ccc{
+    text-align: center;
+    
+}
+#ccc input:hover{
+    border: 1px solid green;
+}
+#cccc{
+    margin-top: 20px;
+    text-align: center;
+
+}
+#cccc button:hover{
+    background-color: gray;
+    box-shadow: 1px 1px 2px greenyellow;
+}
+#hd li{
+display: inline-block;
+
+}
+#table22{
+    border: 2px solid black;
+    height: 100px; margin-left: 2px;
+}
+#tr34 td{
+    border: 2px none white;
+}
+
+#p567 input{
+    margin-bottom: 40px;
+   
+
+}
+#p567{
+    margin-left: 500px;
+}
+#p3 ul li ul{
+    padding-bottom: 40px;
+  margin-left: 100px;
+    display: none;
+}
+
+ 
+
+#p3 ul li:active ul{
+    display: block;
+}
+#p3 ul li ul:active #lll2{
+    display: block;
+}

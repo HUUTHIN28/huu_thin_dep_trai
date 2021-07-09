@@ -11,7 +11,7 @@ app.use(express.urlencoded());
 app.use(express.static('cline'));
 //app.use(express.static('public'));
 //app.get('/',function(req,res){
- // res.sendFile(__dirname + "/" + "cline/index.html");
+ // res.sendFile(__dirname + "/" + "cline/home_page.html");
 //});
 app.use(apiPath +'users',require('./routes/users.route'));
 //app.get('/thin',function(req,res){
